@@ -23,9 +23,13 @@ function List({ contacts }) {
 
       <ul className={styles.list}>
         {filtered.map((contact, index) => (
-          <li key={index}>{contact.firstName}</li>
+          <li key={index}>
+            <span>{contact.firstName}</span>
+            <span>{contact.phoneNumber}</span>
+          </li>
         ))}
       </ul>
+      <p>total contacts ({filtered.length})</p>
     </div>
   );
 }
