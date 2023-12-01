@@ -1,6 +1,6 @@
 # Fimple-React-Bootcamp-Contaacts-App
 
-Fimple React Bootcamp Contaacts-App
+Fimple React Bootcamp Contacts-App
 
 ---
 
